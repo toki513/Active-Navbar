@@ -38,3 +38,25 @@ body {
     width: 80%;
   }
   
+.btn {
+    position: absolute;
+    bottom: -80px;
+    background-color: slateblue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    filter: brightness(1.5);
+  }
+  
+  #prev {
+    left: 20%;
+  }
+  
+  #next {
+    right: 20%;
+  }
